@@ -1,0 +1,13 @@
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\ResolveAssemblyReference.cache
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\HelloPhone.g.resources
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\ApplicationIcon.png
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\Background.png
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\HelloPhone.dll
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\HelloPhone.pdb
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\AppManifest.xaml
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\Bin\Debug\HelloPhone.xap
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\HelloPhone.dll
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\HelloPhone.pdb
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\XapCacheFile.xml
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\App.g.i.cs
+d:\wproj\Ex1CreatingWP7AppWithVS\Begin\HelloPhone\obj\Debug\MainPage.g.i.cs

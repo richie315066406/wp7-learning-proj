@@ -1,0 +1,15 @@
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\ApplicationIcon.png
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\Background.png
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\WindowsPhonePussle.dll
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\WindowsPhonePussle.pdb
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\AppManifest.xaml
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\Bin\Debug\WindowsPhonePussle.xap
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\ResolveAssemblyReference.cache
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\App.g.i.cs
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\MainPage.g.i.cs
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\WindowsPhonePussle.g.resources
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\WindowsPhonePussle.dll
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\WindowsPhonePussle.pdb
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\XapCacheFile.xml
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\ErrorPage.g.i.cs
+d:\wproj\Ex1CreatingWP7Apps\Begin\WindowsPhonePussle\obj\Debug\PusslePage.g.i.cs
