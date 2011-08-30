@@ -4,6 +4,22 @@ public class TypeSafeList<T>
 	T[] innerArray = new T[0];
 	int currentSize = 0;
 	int capacity = 0;
+    private string name;
+
+    public string Name
+    {
+        get
+        {
+            return name; 
+        }
+        set
+        {
+            if(value == string.Empty)
+                name = "Unknow man!";
+            else
+                name = value;
+        }
+    }
 
 	public void Add(T item)
 	{
@@ -50,5 +66,17 @@ public class Part1
 {
 	public static void Main(string[] args)
 	{
+        TypeSafeList<string> stringList = new TypeSafeList<string>();        
+        stringList.Add("one");
+        stringList.Add("two");
+        stringList.Add("three");
+        stringList.Add("four");
+        
+        stringList[0]+=" piggy";
+        stringList.Name = ""; // this equals to string.Empty.
+
+        System.Console.WriteLine(stringList);
+        System.Console.WriteLine(stringList[0]);
+        System.Console.WriteLine(stringList.Name);
 	}
 }
