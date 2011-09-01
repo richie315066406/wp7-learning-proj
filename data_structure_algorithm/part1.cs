@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+
 public class TypeSafeList<T>
 {
 	T[] innerArray = new T[0];
@@ -66,7 +68,13 @@ public class Part1
 {
 	public static void Main(string[] args)
 	{
-        TypeSafeList<string> stringList = new TypeSafeList<string>();        
+		TypeSafeListTester();
+		ListTester();
+	}
+
+	public static void TypeSafeListTester()
+	{
+		TypeSafeList<string> stringList = new TypeSafeList<string>();        
         stringList.Add("one");
         stringList.Add("two");
         stringList.Add("three");
@@ -78,5 +86,29 @@ public class Part1
         System.Console.WriteLine(stringList);
         System.Console.WriteLine(stringList[0]);
         System.Console.WriteLine(stringList.Name);
+	}
+
+	public static void ListTester()
+	{
+		List<int> myInts = new List<int>();	
+		List<string> myStrings = new List<String>();	
+		myStrings.Add("Hello");
+		myStrings.Add("hello");
+		myStrings.Add("1");
+		myStrings.Add("5");
+		myStrings.Add("2");
+		myStrings.Add("3");
+		
+		Console.WriteLine("--unsorted list--");
+		foreach(string str in myStrings)
+			Console.WriteLine(str);
+
+		Console.WriteLine("--sorted list--");
+		myStrings.Sort();
+		foreach(string str in myStrings)
+			Console.WriteLine(str);
+		
+		Console.WriteLine("--binary search for index of token:5");
+		Console.WriteLine(myStrings.BinarySearch("5"));
 	}
 }
