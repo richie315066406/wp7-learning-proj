@@ -1,0 +1,16 @@
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\ApplicationIcon.png
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\Background.png
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\WindowsPhoneNavigation.dll
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\WindowsPhoneNavigation.pdb
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\AppManifest.xaml
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\WindowsPhoneNavigation.xap
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\ResolveAssemblyReference.cache
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\App.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\MainPage.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\Views\About\Default.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\Views\Music\Default.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\Views\Video\Default.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.g.resources
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.dll
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.pdb
+C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\XapCacheFile.xml
