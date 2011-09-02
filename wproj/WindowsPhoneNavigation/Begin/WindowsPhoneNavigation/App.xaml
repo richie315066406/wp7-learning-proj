@@ -29,6 +29,29 @@
             </nav:UriMapper.UriMappings>
         </nav:UriMapper> 
         
+        <system:String x:Key="ImagesLocation">Assets/Images/</system:String>
+
+        <shell:ApplicationBar x:Key="MainAppBar" IsVisible="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="About" Click="ApplicationBarAbout_Click" />
+            </shell:ApplicationBar.MenuItems>
+            <shell:ApplicationBar.Buttons>
+                <shell:ApplicationBarIconButton Text="Images" IconUri="pictures_Icon.png"  Click="ApplicationBarIconPictures_Click" />
+            </shell:ApplicationBar.Buttons>
+        </shell:ApplicationBar>
+
+        <shell:ApplicationBar x:Key="GlobalAppBar" IsVisible="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="About" Click="ApplicationBarAbout_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+
+        <shell:ApplicationBar x:Key="PictureAppBar" IsVisible="False">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="appBarMenuItemShowPicture" Text="Show Picture"/>
+                <shell:ApplicationBarMenuItem Text="About" Click="ApplicationBarAbout_Click"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

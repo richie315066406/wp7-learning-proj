@@ -18,6 +18,22 @@ namespace WindowsPhoneNavigation.Views.Music
         public Default()
         {
             InitializeComponent();
+            this.Loaded += new RoutedEventHandler(Default_Loaded); 
+        }
+
+        void Default_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.musicToPlay.Text = this.NavigationContext.QueryString.Values.First();
+            try
+            {
+                media.AutoPlay = true;
+                media.Source = new Uri(NavigationContext.QueryString.Values.First(), UriKind.RelativeOrAbsolute);
+                media.Position = TimeSpan.FromMilliseconds(0);
+                media.Play();
+            }
+            catch
+            { 
+            }
         }
     }
 }

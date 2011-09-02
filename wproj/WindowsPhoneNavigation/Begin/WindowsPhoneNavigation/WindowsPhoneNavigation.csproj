@@ -73,6 +73,12 @@
     <Compile Include="Views\Music\Default.xaml.cs">
       <DependentUpon>Default.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pictures\Default.xaml.cs">
+      <DependentUpon>Default.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pictures\PictureView.xaml.cs">
+      <DependentUpon>PictureView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Video\Default.xaml.cs">
       <DependentUpon>Default.xaml</DependentUpon>
     </Compile>
@@ -94,12 +100,21 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Pictures\Default.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pictures\PictureView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Video\Default.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
   </ItemGroup>
@@ -134,7 +149,6 @@
     <Content Include="Assets\video2.wmv" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Pictures\" />
     <Folder Include="Views\WebBrowser\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />

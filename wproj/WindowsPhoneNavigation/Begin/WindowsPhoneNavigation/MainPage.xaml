@@ -38,8 +38,14 @@
                     <HyperlinkButton NavigateUri="/Video/Video1.wmv" Content="Video #1" Style="{StaticResource PhoneHyperlinkStyle}"/>
                     <HyperlinkButton NavigateUri="/Video/Video2.wmv" Content="Video #2" Style="{StaticResource PhoneHyperlinkStyle}"/>                   
 
+                    <TextBlock Text="Images" Style="{StaticResource PhoneTextGroupHeaderStyle}"/>
+                    <HyperlinkButton NavigateUri="/Pictures" Content="Images" Style="{StaticResource PhoneHyperlinkStyle}"/> 
+                    
                     <TextBlock Text="About" Style="{StaticResource PhoneTextGroupHeaderStyle}"/>
-                    <HyperlinkButton NavigateUri="/About" Content="About" Style="{StaticResource PhoneHyperlinkStyle}"/>                   
+                    <HyperlinkButton NavigateUri="/About" Content="About" Style="{StaticResource PhoneHyperlinkStyle}"/>
+
+                    <TextBlock Text="System Tray" Style="{StaticResource PhoneTextGroupHeaderStyle}"/>
+                    <HyperlinkButton Content="Toggle System Tray" Click="OnSystemTrayToggle" Style="{StaticResource PhoneHyperlinkStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </Grid>

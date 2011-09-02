@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Shell;
 
 namespace WindowsPhoneNavigation
 {
@@ -19,6 +20,11 @@ namespace WindowsPhoneNavigation
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void OnSystemTrayToggle(object sender, RoutedEventArgs e)
+        {
+            this.SetValue(SystemTray.IsVisibleProperty, !(bool)this.GetValue(SystemTray.IsVisibleProperty));
         }
     }
 }
