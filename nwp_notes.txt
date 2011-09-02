@@ -1,0 +1,7 @@
+--notes for wp7 development--
+
+-- Visual Studio Keyboard Shortcuts --
+.To show Solution Explorer, press CTRL + W, S
+.F7 / SHIFT+F7 : toggle between code/designer(XAML) view
+.Stop debug session and detach debugger: SHIFT+F5
+
