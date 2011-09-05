@@ -106,6 +106,7 @@ namespace WindowsPhoneNavigation
 
         #region Phone application initialization
 
+
         // Avoid double-initialization
         private bool phoneApplicationInitialized = false;
 
@@ -139,5 +140,16 @@ namespace WindowsPhoneNavigation
         }
 
         #endregion
+
+        private void ApplicationBarIconPictures_Click(object sender, EventArgs e)
+        {
+            PhoneApplicationFrame root = Application.Current.RootVisual as PhoneApplicationFrame;
+            root.Navigate(new Uri("/Pictures", UriKind.Relative));
+        }
+        private void ApplicationBarAbout_Click(object sender, EventArgs e)
+        {
+            PhoneApplicationFrame root = Application.Current.RootVisual as PhoneApplicationFrame;
+            root.Navigate(new Uri("/About", UriKind.Relative));
+        }
     }
 }

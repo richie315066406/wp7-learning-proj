@@ -1,29 +1,29 @@
-﻿<xapCache source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\WindowsPhoneNavigation.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="02.09.2011 16:25:39">
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="02.09.2011 12:28:55" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Background.png" archivePath="Background.png" lastWriteTime="02.09.2011 12:28:56" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="02.09.2011 12:28:56" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.dll" archivePath="WindowsPhoneNavigation.dll" lastWriteTime="02.09.2011 16:25:33" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Butterfly.jpg" archivePath="Assets\Images\Butterfly.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Chrysanthemum.jpg" archivePath="Assets\Images\Chrysanthemum.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Desert.jpg" archivePath="Assets\Images\Desert.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Field.jpg" archivePath="Assets\Images\Field.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Flower.jpg" archivePath="Assets\Images\Flower.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Hydrangeas.jpg" archivePath="Assets\Images\Hydrangeas.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Jellyfish.jpg" archivePath="Assets\Images\Jellyfish.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Koala.jpg" archivePath="Assets\Images\Koala.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Leaves.jpg" archivePath="Assets\Images\Leaves.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Lighthouse.jpg" archivePath="Assets\Images\Lighthouse.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Penguins.jpg" archivePath="Assets\Images\Penguins.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Rocks.jpg" archivePath="Assets\Images\Rocks.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Tulip.jpg" archivePath="Assets\Images\Tulip.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Tulips.jpg" archivePath="Assets\Images\Tulips.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Window.jpg" archivePath="Assets\Images\Window.jpg" lastWriteTime="02.09.2011 13:46:22" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\ie_icon.png" archivePath="ie_icon.png" lastWriteTime="02.09.2011 13:47:01" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\pictures_Icon.png" archivePath="pictures_Icon.png" lastWriteTime="02.09.2011 13:47:01" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="02.09.2011 12:28:56" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\music1.mp3" archivePath="Assets\music1.mp3" lastWriteTime="02.09.2011 13:44:40" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\music2.mid" archivePath="Assets\music2.mid" lastWriteTime="02.09.2011 13:44:41" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\video1.wmv" archivePath="Assets\video1.wmv" lastWriteTime="02.09.2011 13:44:56" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\video2.wmv" archivePath="Assets\video2.wmv" lastWriteTime="02.09.2011 13:44:56" />
-  <file source="C:\git_repo\wp7-learning-proj\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="02.09.2011 16:25:34" />
+﻿<xapCache source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\WindowsPhoneNavigation.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/2/2011 9:51:03 PM">
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="9/2/2011 7:35:01 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Background.png" archivePath="Background.png" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.dll" archivePath="WindowsPhoneNavigation.dll" lastWriteTime="9/2/2011 9:51:01 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Butterfly.jpg" archivePath="Assets\Images\Butterfly.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Chrysanthemum.jpg" archivePath="Assets\Images\Chrysanthemum.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Desert.jpg" archivePath="Assets\Images\Desert.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Field.jpg" archivePath="Assets\Images\Field.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Flower.jpg" archivePath="Assets\Images\Flower.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Hydrangeas.jpg" archivePath="Assets\Images\Hydrangeas.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Jellyfish.jpg" archivePath="Assets\Images\Jellyfish.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Koala.jpg" archivePath="Assets\Images\Koala.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Leaves.jpg" archivePath="Assets\Images\Leaves.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Lighthouse.jpg" archivePath="Assets\Images\Lighthouse.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Penguins.jpg" archivePath="Assets\Images\Penguins.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Rocks.jpg" archivePath="Assets\Images\Rocks.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Tulip.jpg" archivePath="Assets\Images\Tulip.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Tulips.jpg" archivePath="Assets\Images\Tulips.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\Images\Window.jpg" archivePath="Assets\Images\Window.jpg" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\ie_icon.png" archivePath="ie_icon.png" lastWriteTime="9/2/2011 7:35:01 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\pictures_Icon.png" archivePath="pictures_Icon.png" lastWriteTime="9/2/2011 7:35:01 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="9/2/2011 7:35:01 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\music1.mp3" archivePath="Assets\music1.mp3" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\music2.mid" archivePath="Assets\music2.mid" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\video1.wmv" archivePath="Assets\video1.wmv" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Assets\video2.wmv" archivePath="Assets\video2.wmv" lastWriteTime="9/2/2011 7:35:00 PM" />
+  <file source="D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/2/2011 7:39:55 PM" />
 </xapCache>
