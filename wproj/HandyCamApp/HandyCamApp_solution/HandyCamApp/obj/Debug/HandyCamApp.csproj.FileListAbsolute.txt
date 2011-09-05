@@ -1,0 +1,13 @@
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\ApplicationIcon.png
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\Background.png
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\HandyCamApp.dll
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\HandyCamApp.pdb
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\ResolveAssemblyReference.cache
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\App.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\MainPage.g.i.cs
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\HandyCamApp.g.resources
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\HandyCamApp.dll
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\HandyCamApp.pdb
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\AppManifest.xaml
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\Bin\Debug\HandyCamApp.xap
+C:\git_repo\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\XapCacheFile.xml
