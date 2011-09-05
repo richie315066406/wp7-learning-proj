@@ -26,11 +26,13 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Windows.Media.Imaging;
 using System.Windows.Resources;
+using System.Collections.Generic;
 
 namespace WindowsPhoneNavigation.Misc
 {
     public static class Utils
     {
+        public static List<Uri> imgUriList = new List<Uri>();
         public static BitmapImage GetImage(string filename)
         {
             string imgLocation = Application.Current.Resources["ImagesLocation"].ToString();

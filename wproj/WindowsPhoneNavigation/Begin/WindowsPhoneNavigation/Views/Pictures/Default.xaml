@@ -12,9 +12,8 @@
     SupportedOrientations="PortraitOrLandscape"
     Orientation="Portrait"
     mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
-    shell:SystemTray.IsVisible="True"
-    ApplicationBar="{StaticResource PictureAppBar}">
-
+    shell:SystemTray.IsVisible="True">
+       
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -32,10 +31,11 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel Orientation="Vertical">
                 <StackPanel Orientation="Horizontal" Margin="5">
-                    <Button x:Name="btnRemoveSelection" Content="Remove Image" Click="btnRemoveSelection_Click" IsEnabled="False"/>
+                    <TextBox Height="61" Name="TextBoxUrl" Text="" Width="296" />
+                    <Button x:Name="btnRemoveSelection" Content="go" Click="btnRemoveSelection_Click" IsEnabled="True" Width="143" />
                 </StackPanel>
 
-                <ListBox x:Name="lstPictures" Width="450" Height="520" Margin="10" SelectionChanged="lstPictures_SelectionChanged">
+                <ListBox ScrollViewer.HorizontalScrollBarVisibility="Visible" x:Name="lstPictures" Width="450" Height="520" Margin="10" SelectionChanged="lstPictures_SelectionChanged" Tap="lstPicture_Tap">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">

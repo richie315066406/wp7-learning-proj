@@ -31,3 +31,4 @@ D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Re
 D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\WindowsPhoneNavigation.pdb
 D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\XapCacheFile.xml
 D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\Views\Pictures\Default.g.i.cs
+D:\git_proj\wp7\wproj\WindowsPhoneNavigation\Begin\WindowsPhoneNavigation\obj\Release\Views\Pictures\PictureView.g.i.cs

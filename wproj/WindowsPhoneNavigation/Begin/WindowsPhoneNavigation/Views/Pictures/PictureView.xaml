@@ -11,9 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="PortraitOrLandscape" 
     Orientation="Landscape"
-    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="728"
-    shell:SystemTray.IsVisible="True"
-    ApplicationBar="{StaticResource GlobalAppBar}" >
+    mc:Ignorable="d" shell:SystemTray.IsVisible="False" d:DesignHeight="480" d:DesignWidth="800">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -23,14 +21,14 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28" Visibility="Collapsed">
             <TextBlock x:Name="ApplicationTitle" Text="{StaticResource AppName}" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBlock x:Name="PageTitle" Text="{Binding Filename}" Margin="-3,-8,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Image Stretch="Uniform" Source="{Binding Image}"/>
+            <Image Stretch="Uniform" Source="{Binding Image}" DoubleTap="Image_DoubleTap" Name="imageBox" MouseEnter="imageBox_MouseEnter" MouseLeave="imageBox_MouseLeave" MouseMove="imageBox_MouseMove" />
         </Grid>
     </Grid>
  

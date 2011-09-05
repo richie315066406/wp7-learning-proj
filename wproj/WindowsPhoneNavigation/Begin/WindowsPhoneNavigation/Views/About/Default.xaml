@@ -30,7 +30,7 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <TextBlock TextWrapping="Wrap" Margin="5" Style="{StaticResource PhoneTextNormalStyle}" 
-                       Text="This is sample wp7 app, all rights belongs to the brilliant coder 崔恺!"/>
+                       Text="This is sample wp7 app, all rights belongs to the brilliant coder Kevin Tsui:)"/>
         </Grid>
     </Grid>
  

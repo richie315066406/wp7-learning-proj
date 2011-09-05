@@ -26,5 +26,6 @@ namespace WindowsPhoneNavigation
         {
             this.SetValue(SystemTray.IsVisibleProperty, !(bool)this.GetValue(SystemTray.IsVisibleProperty));
         }
+
     }
 }

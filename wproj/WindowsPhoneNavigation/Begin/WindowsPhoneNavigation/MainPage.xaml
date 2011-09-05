@@ -11,7 +11,7 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    shell:SystemTray.IsVisible="True">
+    shell:SystemTray.IsVisible="True" BorderBrush="#FF2121D8">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
@@ -39,7 +39,7 @@
                     <HyperlinkButton NavigateUri="/Video/Video2.wmv" Content="Video #2" Style="{StaticResource PhoneHyperlinkStyle}"/>                   
 
                     <TextBlock Text="Images" Style="{StaticResource PhoneTextGroupHeaderStyle}"/>
-                    <HyperlinkButton NavigateUri="/Pictures" Content="Images" Style="{StaticResource PhoneHyperlinkStyle}"/> 
+                    <HyperlinkButton NavigateUri="/Pictures" Content="Images" Style="{StaticResource PhoneHyperlinkStyle}" BorderThickness="2" BorderBrush="#FF2709CD" /> 
                     
                     <TextBlock Text="About" Style="{StaticResource PhoneTextGroupHeaderStyle}"/>
                     <HyperlinkButton NavigateUri="/About" Content="About" Style="{StaticResource PhoneHyperlinkStyle}"/>
