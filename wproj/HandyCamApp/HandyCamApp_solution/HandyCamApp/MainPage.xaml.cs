@@ -28,7 +28,7 @@ namespace HandyCamApp
             get;
             set;
         }
-        public string ImagePath
+        public BitmapImage ThumbNailBitmap 
         {
             get;
             set;
@@ -299,10 +299,8 @@ namespace HandyCamApp
                 e.ImageStream.Close();
             }
 
-           // this.savedThumbNail.Source = PictureDecoder.DecodeJpeg(e.ImageStream);
             IsolatedStorageFile isoStore = IsolatedStorageFile.GetUserStoreForApplication();
             IsolatedStorageFileStream isoStream = isoStore.OpenFile(fileName, FileMode.Open, FileAccess.Read);
-/*
             BitmapImage bitmap;
             System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
@@ -310,16 +308,10 @@ namespace HandyCamApp
                 bitmap.SetSource(isoStream);
                 Image img = new Image();
                 img.Source = bitmap;
-                thumbNails.Insert(0,img); 
-            });
-            */
 
-            System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
-            {
-                ImageData imgData = new ImageData() {Name=fileName, ImagePath= fileName };
+                ImageData imgData = new ImageData() {Name=fileName, ThumbNailBitmap = bitmap};
                 thumbNails.Insert(0, imgData );
             });
-            
         }
     }
 }

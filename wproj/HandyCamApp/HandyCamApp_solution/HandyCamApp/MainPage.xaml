@@ -36,7 +36,7 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <Image  Source="{Binding ImagePath}" Margin="10,10,10,0" Stretch="UniformToFill"/>
+                            <Image Source="{Binding ThumbNailBitmap}" Margin="10,10,10,0" Stretch="UniformToFill"/>
                             <TextBlock Text="{Binding Name}"/>
                         </StackPanel>
                     </DataTemplate>
