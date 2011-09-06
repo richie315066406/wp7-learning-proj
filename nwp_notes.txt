@@ -5,3 +5,7 @@
 .F7 / SHIFT+F7 : toggle between code/designer(XAML) view
 .Stop debug session and detach debugger: SHIFT+F5
 
+.To allow projects to load from remote sources, ddit the devenv config file found at (usually found at C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe.config). Within the <runtime> tag, add the following line:
+<loadFromRemoteSources enabled="true" />
+Now restart VS and you should be able to load any assembly, bypassing all CLR loading security.
+

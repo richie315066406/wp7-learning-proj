@@ -17,19 +17,37 @@ using Microsoft.Xna.Framework.Media;
 using Microsoft.Phone;
 using System.Windows.Resources;
 using System.Windows.Media.Imaging;
+using System.Collections.ObjectModel;
 
 namespace HandyCamApp
 {
+    public class ImageData
+    {
+        public string Name
+        {
+            get;
+            set;
+        }
+        public string ImagePath
+        {
+            get;
+            set;
+        }
+    }
+
     public partial class MainPage : PhoneApplicationPage
     {
         private int savedCounter = 0;
         PhotoCamera cam;
         MediaLibrary library = new MediaLibrary();
 
+       public ObservableCollection<ImageData> thumbNails = new ObservableCollection<ImageData>();
+
         // Constructor
         public MainPage()
         {
             InitializeComponent();
+            this.thumbNailList.ItemsSource = thumbNails;
         }
 
         //Code for initialization, capture completed, image availability events; also setting the source for the viewfinder.
@@ -284,14 +302,24 @@ namespace HandyCamApp
            // this.savedThumbNail.Source = PictureDecoder.DecodeJpeg(e.ImageStream);
             IsolatedStorageFile isoStore = IsolatedStorageFile.GetUserStoreForApplication();
             IsolatedStorageFileStream isoStream = isoStore.OpenFile(fileName, FileMode.Open, FileAccess.Read);
+/*
             BitmapImage bitmap;
-
             System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
             {
                 bitmap = new BitmapImage();
                 bitmap.SetSource(isoStream);
-                this.savedThumbNail.Source = bitmap; 
+                Image img = new Image();
+                img.Source = bitmap;
+                thumbNails.Insert(0,img); 
             });
+            */
+
+            System.Windows.Deployment.Current.Dispatcher.BeginInvoke(() =>
+            {
+                ImageData imgData = new ImageData() {Name=fileName, ImagePath= fileName };
+                thumbNails.Insert(0, imgData );
+            });
+            
         }
     }
 }

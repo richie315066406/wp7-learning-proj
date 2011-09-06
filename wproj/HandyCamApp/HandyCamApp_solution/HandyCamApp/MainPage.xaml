@@ -13,6 +13,7 @@
     SupportedOrientations="Landscape" Orientation="LandscapeLeft"
     shell:SystemTray.IsVisible="False">
 
+
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.ColumnDefinitions>
@@ -26,8 +27,28 @@
         </Canvas>
         <StackPanel Grid.Column="1">
             <Button x:Name="ShutterButton" Content="SH" Click="ShutterButton_Click" FontSize="26"
-                    FontWeight="ExtraBold" Height="75"/>
-            <Image Height="150" Name="savedThumbNail" Stretch="Fill" Width="auto" Margin="10,10,10,10" />
+                    FontWeight="ExtraBold" Height="75" BorderBrush="#FFDB4545" />
+
+<!--
+            <ScrollViewer Name="scrollViewer1" Width="auto" VerticalScrollBarVisibility="Visible" Height="400" VerticalContentAlignment="Top">
+-->
+            <ListBox Name="thumbNailList" Width="auto">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image  Source="{Binding ImagePath}" Margin="10,10,10,0" Stretch="UniformToFill"/>
+                            <TextBlock Text="{Binding Name}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+
+                <!--
+                    <Image Height="150" Name="savedThumbNail" Stretch="UniformToFill" Width="auto" Margin="10,10,10,10" VerticalAlignment="Top" />
+            </ScrollViewer>
+-->
+            <ItemsControl Height="0" Name="itemsControl1" Width="0" />
         </StackPanel>
 
         <!--for debug-->
