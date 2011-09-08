@@ -21,27 +21,29 @@ using System.Collections.ObjectModel;
 
 namespace HandyCamApp
 {
-    public class ImageData
-    {
-        public string Name
-        {
-            get;
-            set;
-        }
-        public BitmapImage ThumbNailBitmap 
-        {
-            get;
-            set;
-        }
-    }
-
+    
+   
     public partial class MainPage : PhoneApplicationPage
     {
+        public class ImageData
+        {
+            public string Name
+            {
+                get;
+                set;
+            }
+            public BitmapImage ThumbNailBitmap 
+            {
+                get;
+                set;
+            }
+        }
+
         private int savedCounter = 0;
         PhotoCamera cam;
         MediaLibrary library = new MediaLibrary();
 
-       public ObservableCollection<ImageData> thumbNails = new ObservableCollection<ImageData>();
+        public ObservableCollection<ImageData> thumbNails = new ObservableCollection<ImageData>();
 
         // Constructor
         public MainPage()
@@ -312,6 +314,16 @@ namespace HandyCamApp
                 ImageData imgData = new ImageData() {Name=fileName, ThumbNailBitmap = bitmap};
                 thumbNails.Insert(0, imgData );
             });
+        }
+
+        private void thumbNailList_Tap(object sender, GestureEventArgs e)
+        {
+            if (null != this.thumbNailList.SelectedItem)
+            {
+                PhoneApplicationFrame root = Application.Current.RootVisual as PhoneApplicationFrame;
+                string fileName = (thumbNailList.SelectedItem as ImageData).Name;
+                root.Navigate(new Uri("/ImageViewer.xaml?arg1=" + fileName, UriKind.Relative));
+            }
         }
     }
 }

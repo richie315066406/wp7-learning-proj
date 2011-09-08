@@ -32,12 +32,12 @@
 <!--
             <ScrollViewer Name="scrollViewer1" Width="auto" VerticalScrollBarVisibility="Visible" Height="400" VerticalContentAlignment="Top">
 -->
-            <ListBox Name="thumbNailList" Width="auto">
+            <ListBox x:Name="thumbNailList" Width="auto" Height="400" Tap="thumbNailList_Tap">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel>
+                        <StackPanel Orientation="Vertical">
                             <Image Source="{Binding ThumbNailBitmap}" Margin="10,10,10,0" Stretch="UniformToFill"/>
-                            <TextBlock Text="{Binding Name}"/>
+                            <TextBlock Text="{Binding Name}" TextWrapping="Wrap"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>

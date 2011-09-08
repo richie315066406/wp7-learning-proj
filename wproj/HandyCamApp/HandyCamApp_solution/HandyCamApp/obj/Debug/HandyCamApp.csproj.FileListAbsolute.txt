@@ -37,3 +37,4 @@ D:\git_proj\wp7\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\Han
 D:\git_proj\wp7\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\HandyCamApp.dll
 D:\git_proj\wp7\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\HandyCamApp.pdb
 D:\git_proj\wp7\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\XapCacheFile.xml
+Z:\wp7-learning-proj\wproj\HandyCamApp\HandyCamApp_solution\HandyCamApp\obj\Debug\ImageViewer.g.i.cs
