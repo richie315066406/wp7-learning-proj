@@ -1,0 +1,14 @@
+E:\asp.net\MvcMovie\MvcMovie\bin\MvcMovie.dll
+E:\asp.net\MvcMovie\MvcMovie\bin\MvcMovie.pdb
+E:\asp.net\MvcMovie\MvcMovie\bin\EntityFramework.dll
+E:\asp.net\MvcMovie\MvcMovie\bin\EntityFramework.xml
+E:\asp.net\MvcMovie\MvcMovie\obj\Debug\ResolveAssemblyReference.cache
+E:\asp.net\MvcMovie\MvcMovie\obj\Debug\MvcMovie.dll
+E:\asp.net\MvcMovie\MvcMovie\obj\Debug\MvcMovie.pdb
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\bin\MvcMovie.dll
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\bin\MvcMovie.pdb
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\bin\EntityFramework.dll
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\bin\EntityFramework.xml
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\obj\Debug\ResolveAssemblyReference.cache
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\obj\Debug\MvcMovie.dll
+Z:\wp7-learning-proj\asp.net\MvcMovie\MvcMovie\obj\Debug\MvcMovie.pdb
