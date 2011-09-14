@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using System.Data.Entity;
+using MvcMovie.Models;
 
 namespace MvcMovie
 {
@@ -31,8 +33,9 @@ namespace MvcMovie
 
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+            Database.SetInitializer<MovieDBContext>(new MovieInitializer());            
 
+            AreaRegistration.RegisterAllAreas();
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
         }

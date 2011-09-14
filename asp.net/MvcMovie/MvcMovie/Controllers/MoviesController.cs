@@ -24,9 +24,13 @@ namespace MvcMovie.Controllers
         //
         // GET: /Movies/Details/5
 
-        public ViewResult Details(int id)
+        public ActionResult Details(int id)
         {
             Movie movie = db.Movies.Find(id);
+            if (movie == null)
+            {
+                return HttpNotFound(); 
+            }
             return View(movie);
         }
 
@@ -92,10 +96,15 @@ namespace MvcMovie.Controllers
         //
         // POST: /Movies/Delete/5
 
+        //map URL /Delete/ to the http post method for routing system.
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {            
             Movie movie = db.Movies.Find(id);
+            if (movie == null)
+            {
+                return HttpNotFound(); 
+            }
             db.Movies.Remove(movie);
             db.SaveChanges();
             return RedirectToAction("Index");
@@ -109,6 +118,7 @@ namespace MvcMovie.Controllers
 
         public ActionResult SearchIndex(string movieGenre, string searchString)
         {
+            //populate Genre list
             var GenreLst = new List<string>();
             var GenreQry = from d in db.Movies
                            orderby d.Genre
@@ -116,6 +126,7 @@ namespace MvcMovie.Controllers
             GenreLst.AddRange(GenreQry.Distinct());
             ViewBag.MovieGenre = new SelectList(GenreLst);
 
+            //1.filter according to movie name
             var movies = from m in db.Movies
                          select m;
             if (!string.IsNullOrEmpty(searchString))
@@ -123,7 +134,8 @@ namespace MvcMovie.Controllers
                 movies = movies.Where(s => s.Title.Contains(searchString));
             }
 
-            if(!string.IsNullOrEmpty(movieGenre))
+            //2.further filter according to genre
+            if(string.IsNullOrEmpty(movieGenre))
             {
                 return View(movies);
             }
