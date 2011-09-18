@@ -1,0 +1,65 @@
+#Header
+{
+    background-color: silver;
+    width: 844px;
+    height: 86px;
+}
+
+*
+{
+    /*background-color: Yellow;*/
+    font-family: Arial;
+}
+
+h1
+{
+   font-size: 20px;
+}
+
+#PageWrapper
+{
+   width: 844px;
+}
+
+#MenuWrapper
+{
+   width: 844px;
+}
+
+#MainContent
+{
+   width: 664px;
+   float:left;  
+}
+
+#Sidebar
+{
+   background-color:Gray;
+   width: 180px;
+   float:left;  
+}
+
+#Footer
+{
+   background-color:#c0c0c0;
+   width: 844px;
+   clear:both;
+}
+
+#MainContent a
+{
+    color: #008000;
+    text-decoration: underline;
+}
+
+#MainContent a:visited
+{
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+#MainContent a:hover
+{
+    color: #FFA500;
+    text-decoration: underline;
+}
